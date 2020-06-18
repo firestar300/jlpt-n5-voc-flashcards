@@ -1,0 +1,28 @@
+.card {
+    display: inline-block;
+    position: relative;
+    min-width: 200px;
+    height: 300px;
+    margin: 100px auto;
+}
+
+.card__symbol {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    right: 10px;
+    transform: translateY(-50%);
+    font-size: 3rem;
+}
+
+.card__symbol.small,
+.card__symbol div {
+    font-size: 1.4rem;
+}
+
+.card__answer {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+}
